@@ -1,6 +1,6 @@
 for i in $@
 
-do service $@ status
+do service $i status
 
 done
 
