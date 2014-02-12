@@ -1,0 +1,17 @@
+//http://www.codecademy.com/courses/javascript-beginner-en-Bthev-mskY8/1/2?curriculum_id=506324b3a7dffd00020bf661
+
+var compare = function (choice1, choice2) {
+// si choice1 es igual a choice2 imprime empate    
+    if (choice1 === choice2) {
+        return "The result is a tie!";
+}
+//si choice1 es igual a "rock" y si choice2 es igual scissors imprime "paper wins" sino imprime "paper wins" entendiendo que la opcion será "rock"
+if (choice1 === "rock") {
+    if (choice2 === "scissors") {
+        return "rock wins";
+    } else {
+        return "paper wins";
+    }
+}
+};
+
